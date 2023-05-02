@@ -1,0 +1,120 @@
+/* -------------------------------------------- header section styling */
+.flex-container {
+    display: flex;
+    background-color: #AD4B4B;
+    border-bottom: 2px solid #fccfcfab;
+}
+
+.flex-child {
+    flex: 1;
+    background-color: #6E2F2F;
+    border: 2px solid none;
+    padding: 15px 15px;
+}
+
+.flex-child-nav {
+    width: 75%;
+}
+
+.parent {
+    width: 30%;
+}
+
+img {
+    width:100%;
+    padding: 30px;
+}
+
+h1 {
+    padding-left: 0.5em;
+    align-self: flex-end;
+    color: white !important;
+}
+
+/* -------------------------------------------- headings styling */
+
+h2 {
+margin-left: -5px;
+padding: 8px;
+}
+
+.headers {
+    color: #FA6B6B;
+}
+
+main h2 {
+background-color: #6E2F2F;
+margin-top: 0;
+}
+
+header {
+display: flex;
+flex-direction: row;
+padding: 2px 0 2px 2px;
+}
+
+/* -------------------------------------------- main body styling */
+
+main {
+background-color: #fccfcfab;
+padding: 0 0 0 5px;
+}
+
+section {
+padding-bottom: 10px;
+}
+
+p {
+margin: 0 5px;
+padding: 0 5px;
+}
+
+.upper-padding {
+    padding-top:20px;
+}
+
+.flex-container {
+display: flex;
+flex-flow: row wrap;
+gap: 1em;
+}
+
+ul li {
+    color: white;
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+a:hover {
+    color: #ff9494 !important;
+}
+
+.news-padding {
+    padding: 20px 0 20px 10px;
+}
+
+/* -------------------------------------------- footer styling */
+
+footer {
+color: white;
+background-color: #494D5F;
+padding: 10px 0 10px 0;
+}
+
+/* -------------------------------------------- media queries */
+
+@media screen and (max-width: 830px) {
+    .flex-child {
+        flex: none;
+        width:100%;
+        border-top: 2px solid #fccfcfab;
+    }
+    .parent {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
